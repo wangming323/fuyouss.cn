@@ -1,0 +1,59 @@
+@charset "UTF-8";
+*{margin:0;padding:0;list-style:none;border:0;}
+
+body{font-size:12px;font-family:Verdana, Geneva, sans-serif;}
+
+a{color:fff;text-decoration:none;}
+
+a:hover{text-decoration:underline;}
+
+
+
+/* carousel */
+
+.carousel{margin:20px auto;position:relative;height:600px;width:1500px;overflow:hidden;}
+
+.carousel h2 a{color:#000000;}
+
+.carousel .backgrounds{height:340px;}
+
+.carousel .backgrounds .item{width:1500px;height:600px;float:left;position:relative;z-index:1;}
+
+.carousel .backgrounds .item_1{background:url(images/carousel_bg_arrow.jpg) no-repeat 0 0;}
+
+.carousel .backgrounds .item_2{background:url(images/carousel_bg_arrow.jpg) no-repeat 0 0;}
+
+.carousel .backgrounds .item_3{background:url(images/carousel_bg_1.jpg) no-repeat 0 0;}
+
+.carousel .panel{background:#ffffff;color:#fff;position:absolute;right:0;top:0;height:600px;width:400px;z-index:10;filter:alpha(opacity=100);-moz-opacity:1;-khtml-opacity:1;opacity:1;}
+
+.carousel .panel .paging{position:absolute;bottom:25px;left:25px;width:225px;text-align:center;}
+
+.carousel .panel .paging a{color:#4c4c4c;font-size:1.1em;}
+
+.carousel .panel .pause{position:absolute;right:20px;top:25px;display:block;width:18px;height:18px;background:url(../images/carousel_pause_bg.gif) no-repeat 0 0;text-indent:-6000px;}
+
+.carousel .panel .play{position:absolute;right:20px;top:25px;display:block;width:18px;height:18px;background:url("../323images/find/carousel_play_bg.gif") no-repeat 0 0;text-indent:-6000px;}
+
+.carousel .panel .paging{left: 80px;}
+
+.carousel .panel .paging .next{position:absolute;right:0;bottom:0;display:block;width:18px;height:18px;background:url("../323images/find/carousel_next_bg.gif") no-repeat 0 0;text-indent:-6000px;}
+
+.carousel .panel .paging .previous{position:absolute;left:0;bottom:0;display:block;width:18px;height:18px;background:url("../323images/find/carousel_previous_bg.gif") no-repeat 0 0;text-indent:-6000px;}
+
+
+
+.carousel .panel .paging #numbers a{padding:0 5px 0 5px;}
+
+.carousel .panel .paging #numbers a.selected{color:#ff0000;}
+
+.carousel .panel .details_wrapper{position:absolute;top:20px;left:25px;width:225px;overflow:hidden;height:200px;}
+
+.carousel  .panel  .details_wrapper  .details{height:200px; }
+
+.carousel .panel .details_wrapper .details .detail{width:225px;height:200px;float:left;}
+
+.carousel .panel .details_wrapper .details h2{font-size:1.9em;line-height:1.2em;margin:0 0 5px 0;}
+
+.carousel .panel .details_wrapper .details a.more{color:#000000;font-size:1.1em;}
+
